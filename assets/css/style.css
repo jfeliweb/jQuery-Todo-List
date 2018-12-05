@@ -27,14 +27,6 @@ h1 {
   font-weight: normal;
 }
 
-.fa-plus-square-o {
-  float: right;
-}
-
-.fa-trash-o {
-
-}
-
 input{
   font-size: 18px;
   width: 100%;
@@ -85,3 +77,14 @@ li:hover span {
   width: 40px;
   opacity: 1.0;
 }
+
+.fa-plus-square-o {
+  float: right;
+}
+
+.fa-trash-o {
+
+}
+
+
+
