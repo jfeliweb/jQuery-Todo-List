@@ -27,6 +27,14 @@ h1 {
   font-weight: normal;
 }
 
+.fa-plus-square-o {
+  float: right;
+}
+
+.fa-trash-o {
+
+}
+
 input{
   font-size: 18px;
   width: 100%;
@@ -35,6 +43,7 @@ input{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  border: 3px solid rgba(0,0,0, 0);
 }
 
 input:focus {
@@ -58,4 +67,21 @@ li {
 
 li:nth-child(2n) {
   background-color: #f7f7f7;
+}
+
+span {
+  background-color: #e74c3c;
+  height: 40px;
+  width: 0px;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
 }

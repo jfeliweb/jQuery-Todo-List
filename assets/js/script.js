@@ -19,6 +19,11 @@ $("input[type='text']").keypress(function(e) {
     // clearout form input
     $(this).val("");
     // create new list item with value
-    $("ul").append("<li><span>X</span> " + todoText + "</li>");
+    $("ul").append("<li><span><i class='fa fa-trash-o' aria-hidden='true'></i></span> " + todoText + "</li>");
   }
+});
+
+// toggle todo input
+$(".fa-plus-square-o").click(function() { 
+  $("input[type='text']").fadeToggle();
 });
